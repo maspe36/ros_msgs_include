@@ -17,7 +17,6 @@ macro_rules! ros_msgs_include {
         $crate::ros_msgs_include!(env!("CARGO_PKG_NAME"))
     };
     ($pkg_name:expr) => {
-        use ::ros_msgs_include::cargo_toml::Manifest;
         use std::path::{Path, PathBuf};
         use std::{fs, io};
 
