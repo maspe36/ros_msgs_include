@@ -1,0 +1,10 @@
+[package]
+name = "ros_msgs_include"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sam Privett <sam@privett.dev>"]
+license = "Apache-2.0"
+keywords = ["ROS2"]
+
+[dev-dependencies]
+tempfile = "3"
